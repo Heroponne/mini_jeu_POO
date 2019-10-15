@@ -1,7 +1,0 @@
-# Mini jeux en POO Ruby
-
-## app
-Mini jeu où deux joueurs automatiques se retirent des points de vie aléatoires jusqu'à ce que l'un des deux n'en ait plus
-
-## app_2
-Mini jeu où un utilisateur affronte deux adversaires automatiques, le but étant d'être le dernier en jeu suite à des retraits de points de vie aléatoires.
