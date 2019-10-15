@@ -19,7 +19,10 @@ while player1.life_points.positive? && player2.life_points.positive?
   # le jeu se poursuit tant que les 2 joueurs ont de la vie
   puts "Passons à la phase d'attaque :"
   player1.attacks(player2)
-  break if player2.life_points <= 0
+  if player2.life_points <= 0
+    player2.life_points = 0
+    break
+  end
   player2.attacks(player1)
   puts '=-=-=-=-=-=-=-=-=-=-=-=-=-='
   sleep(2)
